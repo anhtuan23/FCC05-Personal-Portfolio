@@ -25,10 +25,6 @@ body {
 /* #endregion */
 
 /* #region main */
-main{
-    padding-bottom: 2000px;
-}
-
 /* #region welcome */
 #welcome-section {
     height: calc(100vh - 60px);
@@ -119,4 +115,60 @@ main{
     text-decoration: none;
 }
 /* #endregion */
+
+/* #region contact */
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(174, 187, 255);
+    padding: 100px;
+    margin-top: 100px;
+}
+
+#lets-work{
+    font-size: 2.5em;
+}
+
+#contact-circles{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0;
+    justify-content: center;
+}
+
+#contact-circles a{
+    border: 2px solid rgb(51, 224, 255);
+    background-color: rgb(173, 243, 255);
+    border-radius: 50%; 
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 50px;
+    text-decoration: none;
+    color: rgb(58, 71, 255); 
+    font-weight: bold;
+}
+
+#contact-circles a:hover{
+    background-color: rgb(212, 249, 255);
+}
+
+/* #endregion */
+
+/* #endregion */
+
+/* #region footer */
+footer{
+    height: 100px;
+    background-color: rgb(34, 49, 63);
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
 /* #endregion */
