@@ -106,5 +106,17 @@ main{
     height: 40px;
     line-height: 40px;
 }
+
+
+
+#profile-link{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(51, 224, 255);
+    background-color: rgb(210, 248, 255);
+    color:rgb(0, 130, 153);
+    text-decoration: none;
+}
 /* #endregion */
 /* #endregion */
